@@ -11,7 +11,7 @@ The model can take advantages of unsupervised pre-training of word vectors to im
 
 We report on a series of experiments with convolutional neural networks (CNN) trained on top of pre-trained word vectors for sentence-level classification tasks. We show that a simple CNN with little hyperparameter tuning and static vectors achieves excellent results on multiple benchmarks. Learning task-specific vectors through fine-tuning offers further gains in performance. We additionally propose a simple modification to the architecture to allow for the use of both task- specific and static vectors. We are building and training CNN model with PyTorch. Our results show that unsupervised pre-training of word vectors is an important ingredient in deep learning for NLP.
 
-# Application screenshots-
+# Screenshots-
 
 ![image](https://user-images.githubusercontent.com/76741091/159180170-25350702-10dd-4a5a-81c8-6c0d6e601780.png)
 ![image](https://user-images.githubusercontent.com/76741091/159180376-3059550b-4812-48e1-a791-e46392acd6b5.png)
