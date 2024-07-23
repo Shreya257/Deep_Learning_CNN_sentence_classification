@@ -4,12 +4,11 @@
 
 # Deep_Learning_CNN_sentence_classification
 
-In our experiment it can be seen that fastText outperforms the other models by quite some way. 
-For the code use (cnn_sentence_classification.ipynb) . Our results are pretty close to Kim’s paper result.
-The implementation by the authors was in PyTorch, and introduced a learning curve, having only worked in TensorFlow. 
-The model can take advantages of unsupervised pre-training of word vectors to improve overall performance.
+In our experiment, fastText demonstrates superior performance compared to other models. The code can be found in `cnn_sentence_classification.ipynb`. Our findings closely align with those reported in Kim’s paper.
 
-We report on a series of experiments with convolutional neural networks (CNN) trained on top of pre-trained word vectors for sentence-level classification tasks. We show that a simple CNN with little hyperparameter tuning and static vectors achieves excellent results on multiple benchmarks. Learning task-specific vectors through fine-tuning offers further gains in performance. We additionally propose a simple modification to the architecture to allow for the use of both task- specific and static vectors. We are building and training CNN model with PyTorch. Our results show that unsupervised pre-training of word vectors is an important ingredient in deep learning for NLP.
+Since the original implementation by the authors was in PyTorch, transitioning from TensorFlow involved a learning curve. However, we successfully adapted and leveraged unsupervised pre-training of word vectors to enhance overall model performance.
+
+Our study involves convolutional neural networks (CNNs) trained on pre-trained word vectors for sentence-level classification tasks. We demonstrate that a straightforward CNN with minimal hyperparameter tuning and static vectors achieves outstanding results across various benchmarks. Fine-tuning task-specific vectors further enhances performance. Additionally, we propose a simple architecture modification enabling the utilization of both task-specific and static vectors. Our CNN model is built and trained using PyTorch. Our results underscore the significance of unsupervised pre-training of word vectors in deep learning applications for natural language processing (NLP).
 
 # Screenshots-
 
